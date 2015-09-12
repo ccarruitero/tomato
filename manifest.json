@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "tomato",
+  "version": "0.1",
+
+  "applications": {
+    "gecko": {
+      "id": "tomato@example.org"
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "tomato.png",
+    "default_popup": "timer.html"
+  }
+}
