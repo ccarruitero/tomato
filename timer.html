@@ -1,8 +1,30 @@
 <!doctype html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  Timer should be here
+  <section id="pomodoro">
+    <div id="timer-wrapper">
+      <p id="timer"></p>
+    </div>
+    <a id="start" class="btn">start</a>
+    <a id="pause" class="btn">pause</a>
+    <a id="reset" class="btn">reset</a>
+  </section>
+
+  <section id="time-picker">
+    <div class="picker-wrap">
+      <input name="minutes" type="number" min="0" max="60" placeholder="minutes" />
+      <input name="seconds" type="number" min="0" max="59" placeholder="seconds" />
+      <div class="btn-wrap">
+        <a id="save" class="btn">save</a>
+        <a id="cancel" class="btn">cancel</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="timer.js"></script>
 </body>
 </html>
